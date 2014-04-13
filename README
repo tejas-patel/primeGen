@@ -1,0 +1,11 @@
+This program efficiently generates prime number between any given range ( 64 bit number ). The program uses fastest known prime generator algorithm to generate prime numbers.
+
+Usage: ./a.out l1 r1 [ l2 r2 [ .. ] ]
+
+where l1 and r1 are ranges of number between which prime numbers are required.
+
+ex. ./a.out 2 4 1000000 2000000 10000000 40000000
+
+would generate prime number between 2 and 4, 1000000 and 2000000, 10000000 and 40000000 on standard output. Use redirection if you want output in file.
+
+No constraint between for l and r  as long as both fit in long long (64 bit) datatype.
